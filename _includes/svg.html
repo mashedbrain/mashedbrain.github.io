@@ -1,0 +1,12 @@
+{% capture svg %}{% include svg/{{ include.src }} %}{% endcapture %}
+{% assign svgsplit = svg | replace: '<?xml version="1.0" encoding="UTF-8" standalone="no"?>', '' %}
+{% assign idstr = svg | split: 'id="' %}
+{% assign id = idstr[1] | split: '"' %}
+{% assign idattr = 'id="' | append: id[0] %}
+{% assign idattrref = '="#' | append: id[0] %}
+{% assign idattrcss = '(#' | append: id[0] %}
+{% assign svgpart = svgsplit | replace: 'id="', idattr %}
+{% assign svgpart2 = svgpart | replace: '(#', idattrcss %}
+<p>
+{{ svgpart2 | replace: '="#', idattrref }}
+</p>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   height="100%"
+   width="200mm"
+   viewBox="0 0 200 150.8631"
+   version="1.1"
+   id="cb">
+  <defs
+     id="cb_defs2">
+    <marker
+       style="overflow:visible"
+       id="cb_marker15954"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="cb_path15952" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="cb_marker15870"
+       style="overflow:visible">
+      <path
+         id="cb_path15868"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="cb_marker5078"
+       style="overflow:visible">
+      <path
+         id="cb_path5076"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="cb_marker2422"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="cb_path2420" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="cb_marker2248"
+       style="overflow:visible">
+      <path
+         id="cb_path2246"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="cb_marker2098"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="cb_path2096" />
+    </marker>
+    <linearGradient
+       id="cb_linearGradient871">
+      <stop
+         style="stop-color:#daf0ff;stop-opacity:1"
+         offset="0"
+         id="cb_stop867" />
+      <stop
+         style="stop-color:#61bdff;stop-opacity:1"
+         offset="1"
+         id="cb_stop869" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#cb_linearGradient871"
+       id="cb_linearGradient873"
+       x1="94.078873"
+       y1="97"
+       x2="94.078873"
+       y2="297"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.75431547,0,48.399851)" />
+  </defs>
+  <metadata
+     id="cb_metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="cb_layer1"
+     transform="translate(0,-121.56845)">
+    <rect
+       style="opacity:1;fill:url(#cb_linearGradient873);fill-opacity:1;stroke:none;stroke-width:1.73702681;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="cb_rect865"
+       width="200"
+       height="150.8631"
+       x="0"
+       y="121.56845"
+       ry="4.2877817e-14" />
+    <rect
+       style="opacity:1;fill:#ededed;fill-opacity:1;stroke:#000000;stroke-width:0.89999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="cb_rect863"
+       width="46.922173"
+       height="44.86718"
+       x="76.53891"
+       y="174.56642"
+       ry="1.1170175e-13" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker5078)"
+       d="M 53.858605,174.06642 H 72.834741"
+       id="cb_path894" />
+    <path
+       id="cb_path2094"
+       d="M 49.228395,185.40822 H 72.834741"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker2098)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker2248)"
+       d="M 44.598189,196.75001 H 72.834741"
+       id="cb_path2244" />
+    <path
+       id="cb_path2418"
+       d="M 39.967982,208.0918 H 72.834741"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker2422)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker15870)"
+       d="M 35.337772,219.4336 H 72.834741"
+       id="cb_path2652" />
+    <path
+       id="cb_use4216"
+       d="M 146.14136,174.56642 H 127.16523"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker5078)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker2098)"
+       d="M 150.77157,185.90822 H 127.16523"
+       id="cb_use4218" />
+    <path
+       id="cb_use4220"
+       d="M 155.40178,197.25001 H 127.16523"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker2248)" />
+    <path
+       id="cb_use4224"
+       d="M 164.6622,219.9336 H 127.16523"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker15870)" />
+    <path
+       id="cb_use15374"
+       d="M 76.538927,260.63472 V 223.13775"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker15870)" />
+    <path
+       id="cb_use15448"
+       d="M 88.269472,260.63472 V 223.13775"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker15870)" />
+    <path
+       id="cb_use15450"
+       d="M 100.00002,260.63472 V 223.13775"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker15870)" />
+    <path
+       id="cb_use15452"
+       d="M 111.73057,260.63472 V 223.13775"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker15870)" />
+    <path
+       id="cb_use15454"
+       d="M 123.4611,260.63471 V 223.13774"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker15870)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker5078)"
+       d="M 123.46109,151.88617 V 170.8623"
+       id="cb_use15458" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker5078)"
+       d="M 111.73055,151.88617 V 170.8623"
+       id="cb_use15460" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker5078)"
+       d="M 100.00001,151.88617 V 170.8623"
+       id="cb_use15462" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker5078)"
+       d="M 88.26945,151.88617 V 170.8623"
+       id="cb_use15464" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker5078)"
+       d="M 76.53891,151.88617 V 170.8623"
+       id="cb_use15466" />
+    <path
+       id="cb_path15878"
+       d="m 193.68809,128.23293 v 37.49699"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker15954)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#cb_marker2422)"
+       d="M 160.032,208.0918 H 127.16524"
+       id="cb_use939" />
+    <text
+       id="text939"
+       y="143.32835"
+       x="188.5184"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.10459137px;line-height:1.25;font-family:Bitter;-inkscape-font-specification:Bitter;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2026148"
+       xml:space="preserve"><tspan
+         style="text-align:end;text-anchor:end;stroke-width:0.2026148"
+         y="143.32835"
+         x="188.5184"
+         id="tspan937">Pressure</tspan><tspan
+         style="text-align:end;text-anchor:end;stroke-width:0.2026148"
+         id="tspan941"
+         y="153.45909"
+         x="188.5184">gradient</tspan></text>
+  </g>
+</svg>

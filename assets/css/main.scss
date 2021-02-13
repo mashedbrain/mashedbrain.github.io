@@ -1,0 +1,44 @@
+---
+sitemap: false
+---
+
+@import "moving";
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+.wp-popup .wikipediapreview {
+  max-height: 371px;
+
+  &.expanded .wikipediapreview-body {
+    overflow-y: auto !important;
+  }
+  .wikipediapreview-body {
+    overflow-x: hidden !important;
+  }
+  .wikipediapreview-gallery-row {
+    overflow-y: auto;
+  }
+  .wikipediapreview-footer-cta {
+    padding: 8px;
+  }
+}
+
+.wp-touch-popup .wikipediapreview {
+  .wikipediapreview-footer-cta {
+    padding: 11px;
+  }
+}
+
+.wp-popup .wikipediapreview,
+.wp-touch-popup .wikipediapreview {
+  font-family: $base-font-family;
+
+  .wikipediapreview-body > p {
+    text-align: left;
+  }
+  .wikipediapreview-body > * {
+    text-align: center;
+  }
+  .wikipediapreview-gallery-image {
+    cursor: pointer;
+  }
+}

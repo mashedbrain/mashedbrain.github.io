@@ -1,0 +1,24 @@
+<footer class="site-footer h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+    <div class="wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+          <ul class="contact-list">
+            <li class="p-name">
+              {%- if site.author and false -%}
+                <a class="black-link" href="{{ site.url }}/about.html">
+                  {{ site.author | escape }} 
+                </a>
+              {%- endif -%}
+              </li>
+              {%- if site.email -%}
+              <li>
+              <a class="u-email black-link" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+              {%- endif -%}
+              <li><a class="u-email black-link" href="/feed.xml" target="_blank">RSS</a> / 
+								<a class="u-email black-link" href="/atom.xml" target="_blank">Atom</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>

@@ -1,0 +1,13 @@
+ .anim-line {
+	 animation: lineMove 5s infinite linear;
+ }
+ 
+ @keyframes lineMove {
+	 0% {
+		 stroke-dashoffset: 0;
+	 }
+	 
+	 100% {
+		 stroke-dashoffset: 90;
+	 }
+ }
