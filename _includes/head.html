@@ -12,19 +12,17 @@
   </script>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' -%}
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript" >
-     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  <!-- Start of Woopra Code -->
+  <script>
+    (function(){
+      var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+    })("woopra");
   
-     ym(72091135, "init", {
-          clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true
-     });
+    woopra.config({
+        domain: 'mashedbrain.github.io'
+    });
+    woopra.track();
   </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/72091135" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
+  <!-- End of Woopra Code -->
   {%- endif -%}
 </head>
