@@ -11,22 +11,6 @@
    viewBox="0 0 200 140"
    version="1.1"
    id="ss">
-  <style
-     id="style2336">
-   #displaced {
-     animation: lineMove 5s infinite linear;
-   }
-   
-   @keyframes lineMove {
-     0% {
-       stroke-dashoffset: 0;
-     }
-     
-     100% {
-       stroke-dashoffset: 90;
-     }
-   }
-	 </style>
   <defs
      id="defs2">
     <marker
@@ -275,7 +259,7 @@
        attributeName="transform"
        attributeType="XML"
        type="rotate"
-       values="9 100 234; -9 100 234; 9 100 234"
+       values="9 100 204; -9 100 204; 9 100 204"
        dur="3s"
        calcMode="spline"
        keyTimes="0;0.5;1"

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Why do things float ?"
+libraries:
+  - math
 ---
 Many will say: *"Because of density!"*
 

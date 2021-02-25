@@ -3,7 +3,7 @@ sitemap: false
 ---
 
 @import "moving";
-@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+//@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
 
 .wp-popup .wikipediapreview {
   max-height: 371px;
@@ -41,4 +41,18 @@ sitemap: false
   .wikipediapreview-gallery-image {
     cursor: pointer;
   }
+}
+
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/bitter-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/assets/fonts/bitter-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/bitter-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/bitter-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/bitter-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/bitter-v17-latin-regular.svg#Bitter') format('svg'); /* Legacy iOS */
 }

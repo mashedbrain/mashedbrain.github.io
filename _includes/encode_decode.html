@@ -1,0 +1,65 @@
+<div class="algo-container">
+  <h3><center>Encoder</center></h3>
+  <div class="row encoder-decoder">
+    <div class="col-12 col-1-2-m">
+      <div class="row" style="height: 33%;">
+        <div class="col-12 padding-left-1rem padding-0">
+          <span class="tag">input message (payload)</span>
+          <textarea id="input-msg" style="border-bottom: 0">Hello, world!</textarea>
+        </div>
+      </div>
+      <div class="row" style="height: 67%;">
+        <div class="col-12">
+          <span class="tag">input html (carrier)</span>
+          <textarea id="input-doc"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-1-2-m">
+      <span class="tag">output html (package)</span>
+      <pre><code class="language-html" id="output-doc">...</code></pre>
+    </div>
+  </div>
+  <p id="encode-err" style="color: #f00; text-align:center"></p>
+  <center><button onclick="encode_submit()">encode</button></center>
+
+  <h3><center>Decoder</center></h3>
+  <div class="row encoder-decoder">
+    <div class="col-12 col-1-2-m">
+      <span class="tag">input html (package)</span>
+      <textarea id="input-encoded-doc">Hello, world!</textarea>
+    </div>
+    <div class="col-12 col-1-2-m">
+      <span class="tag">output message (payload)</span>
+      <p id="output-msg">...</p>
+    </div>
+  </div>
+  <p id="decode-err" style="color: #f00; text-align:center"></p>
+  <center><button onclick="decode_submit()">decode</button></center>
+</div>
+
+<script>
+  document.getElementById('input-doc').value = getDefaultHTML();
+
+  function encode_submit() {
+    try {
+      document.getElementById('output-doc').innerText = encode(document.getElementById('input-doc').value, document.getElementById('input-msg').value);
+      document.getElementById('encode-err').innerHTML = '';
+    } catch (e) {
+      document.getElementById('encode-err').innerHTML = e.message;
+    }
+    document.getElementById('input-encoded-doc').value = document.getElementById('output-doc').innerText;
+
+    hljs.highlightBlock(document.getElementById('output-doc'));
+  }
+  function decode_submit() {
+    try {
+      document.getElementById('output-msg').innerText = decode(document.getElementById('input-encoded-doc').value);
+      document.getElementById('decode-err').innerHTML = '';
+    } catch (e) {
+      document.getElementById('decode-err').innerHTML = e.message;
+    }
+  }
+  encode_submit();
+  decode_submit();
+</script>

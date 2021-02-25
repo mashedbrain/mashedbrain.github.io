@@ -3,26 +3,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {%- seo title=false -%}
+
+  {%- if page.libraries contains 'base' -%}
+  <!-- Base Core -->
+  <link rel="stylesheet" href="https://unpkg.com/@getbase/base/core.css">
+  {%- endif -%}
+
   <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css" />
   <link rel="shortcut icon" type="image/x-icon" href="/{{ site.favicon }}?" />
+
+  {%- if page.libraries contains 'base' -%}
+  <!-- Add Additional Modules -->
+  <link rel="stylesheet" href="https://unpkg.com/@getbase/base/grid.css">
+  <link rel="stylesheet" href="https://unpkg.com/@getbase/base/horizontal-spacers.css">
+  <link rel="stylesheet" href="https://unpkg.com/@getbase/base/spacers.css">
+  {%- endif -%}
+
+  {%- if page.libraries contains 'highlight.js' -%}
   <link rel="stylesheet" href="{{ site.url }}/assets/css/agate.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+  <script src="//unpkg.com/@highlightjs/cdn-assets@10.5.0/highlight.min.js"></script>
   <script>
     hljs.initHighlightingOnLoad();
   </script>
+  {%- endif -%}
+
+  {%- if page.libraries contains 'math' -%}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+  {%- endif -%}
+
   {%- feed_meta -%}
+
   {%- if jekyll.environment == 'production' -%}
-  <!-- Start of Woopra Code -->
-  <script>
-    (function(){
-      var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
-    })("woopra");
-  
-    woopra.config({
-        domain: 'mashedbrain.github.io'
-    });
-    woopra.track();
-  </script>
-  <!-- End of Woopra Code -->
+  <script data-goatcounter="https://mashedbrain.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   {%- endif -%}
 </head>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	input message
+	<textarea id="input-msg"></textarea>
+	input doc
+	<textarea id="input-doc"></textarea>
+	output message
+	<textarea id="output-msg"></textarea>
+	output doc
+	<textarea id="output-doc"></textarea>
+	<button onclick="submit()">submit</button>
+	<script>
+		function submit() {
+			document.getElementById('output-doc').value = encode(document.getElementById('input-doc').value, document.getElementById('input-msg').value)
+			document.getElementById('output-msg').value = decode(document.getElementById('output-doc').value)
+		}
+		function encode(html, message) {
+			binMsg = message
+				.split('')
+				.map((c) => (c.charCodeAt(0) >>> 0).toString(2))
+				.filter((c) => c.length <= 8)
+				.reduce((acc, c) => acc + Array(8-c.length).fill('0').join('') + c, "");
+
+			var htmlTagRe = /<("[^"]*"|'[^']*'|[^'">])*>/g;
+			var indexes = [];
+			var m;
+
+			while ((m = htmlTagRe.exec(html)) && (indexes.length < binMsg.length)) {
+				if (/[a-z\/]/.test(m[0][1])) {
+					var tag = m[0].match(/([a-z]+)/)
+					for (var i = 0; i < tag[0].length; i++) {
+						indexes.push(m.index+tag.index+i)
+					}
+				}
+			}
+
+			if (binMsg.length > indexes.length) {
+				throw Error('Document too short to contain the requested message')
+			}
+
+
+			for (var i = 0; i < indexes.length; i++) {
+				if (binMsg[i] === "1") {
+					html = setCharAt(html, indexes[i], html[indexes[i]].toUpperCase());
+				}
+			}
+
+			return html;
+		}
+		function decode(html) {
+			//console.log(html)
+			//var htmlTagRe = /<\/*([a-zA-Z]+)/g; ///<("[^"]*"|'[^']*'|[^'">])*>/g;
+			var htmlTagRe = /<("[^"]*"|'[^']*'|[^'">])*>/g;
+			var m;
+			var bits = "";
+
+			while ((m = htmlTagRe.exec(html))) {
+				if (/[a-zA-Z\/]/.test(m[0][1])) {
+					var tag = m[0].match(/([a-zA-Z]+)/)
+					tag[0].split('').forEach((c) => bits += (c === c.toUpperCase() ? "1" : "0"))
+				}
+			}
+
+			var msg = bits.match(/.{1,8}/g).filter(c => c.length === 8)
+			var end = msg.findIndex((c) => c === "00000000")
+			msg = msg.reduce((acc, c, i) => {
+				return i < end && end > -1 ? acc+String.fromCharCode(parseInt(c, 2)) : acc;
+			}, "")
+
+			return msg;
+		}
+		function setCharAt(str,index,chr) {
+			if(index > str.length-1) return str;
+			return str.substring(0,index) + chr + str.substring(index+1);
+		}
+		encoded_html = encode(`<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+</body>
+</html>`, 'test')
+
+		decode(encoded_html)
+	</script>
+</body>
+</html>

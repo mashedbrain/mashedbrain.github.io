@@ -8,9 +8,6 @@ layout: default
   itemtype="http://schema.org/BlogPosting"
 >
   <head>
-    <script type="text/javascript" async
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
     <title>{{ page.title }}</title>
   </head>
   <header class="post-header">
@@ -47,4 +44,12 @@ layout: default
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  <div id="wiki-template" style="display: none;">
+    Loading Wikipedia summary...
+  </div>
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script src="/assets/js/wiki-hover.js"></script>
 </article>

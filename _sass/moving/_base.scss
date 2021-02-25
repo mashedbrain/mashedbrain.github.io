@@ -48,7 +48,7 @@ body {
 }
 
 .light-color {
-	color: $grey-color;
+  color: $grey-color;
 }
 
 /**
@@ -112,9 +112,9 @@ img, svg {
   max-width: 100%;
   vertical-align: middle;
 
-	&.right-angles {
-		border-radius: 0px;
-	}
+  &.right-angles {
+    border-radius: 0px;
+  }
 }
 
 /**
@@ -186,40 +186,40 @@ blockquote {
     margin-bottom: 0;
   }
 
-	&.big {
-		position: relative;
-		padding-left: 25px;
-		font-style: italic;
-		color: $text-color;
+  &.big {
+    position: relative;
+    padding-left: 25px;
+    font-style: italic;
+    color: $text-color;
 
-		&::before {
-			content: "";
-			position: absolute;
-			top: 50%;
-			left: -6px;
-			width: 8px;
-			height: 36px;
-			margin-top: -18px;
-			background: $background-color;
-		}
-		&::after {
-			content: "";
-			background-image: url(/assets/img/quotation.svg);
-			position: absolute;
-			top: 0px;
-			left: -27px;
-			width: 50px;
-			height: 100%;
-			display: block;
-			background-size: 24px auto;
-			background-repeat: no-repeat;
-			background-position: center center;
-		}
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -6px;
+      width: 8px;
+      height: 36px;
+      margin-top: -18px;
+      background: $background-color;
+    }
+    &::after {
+      content: "";
+      background-image: url(/assets/img/quotation.svg);
+      position: absolute;
+      top: 0px;
+      left: -27px;
+      width: 50px;
+      height: 100%;
+      display: block;
+      background-size: 24px auto;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
 
-		&.no-border {
-			border-color: transparent;
-		}
-	}
+    &.no-border {
+      border-color: transparent;
+    }
+  }
 }
 
 /**
@@ -324,5 +324,23 @@ table {
   }
   td {
     border: 1px solid $grey-color-light;
+  }
+}
+
+/**
+  * Buttons
+  */
+button {
+  background: $text-color;
+  color: $background-color;
+  border: 1px solid $text-color;
+  border-radius: 5px;
+  padding: 0.4rem 2rem;
+  cursor: pointer;
+  transition: all .2s;
+
+  &:hover {
+    color: $text-color;
+    background: $background-color;
   }
 }
